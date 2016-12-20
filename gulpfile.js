@@ -41,6 +41,4 @@ gulp.task('sass:watch', function () {
 });
 gulp.task('bootstrap4:watch', function () {
     gulp.watch('node_modules/bootstrap/scss/**/*.scss',['bootstrap4']);
-
-   
 });
