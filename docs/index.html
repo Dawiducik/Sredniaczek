@@ -1,137 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=7"> </head>
-  <link rel="stylesheet" href="css/app.min.css">
-<body> 
-  <div class="container">
-    <table class="table table-responsive table-striped table-bordered">
-      <thead>
-        <tr>
-          <th>Przedmiot</th>
-          <th>Oceny cząstkowe</th>
-          <th>Przewidywana ocena śródroczna</th>
-          <th>Ocena śródroczna</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Zachowanie</td>    
-          <td class="break-word">Brak ocen</td>
-          <td>bardzo dobre</td>
-          <td>-</td>     
-        </tr>
-        <tr>
-          <td>Język polski</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: nieprzygotowany<br/>Waga: 0,00<br/>Data: 23.09.2016<br/>Nauczyciel: Turek Ewa" style="color:#000000;">np.</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: nieprzygotowany<br/>Waga: 0,00<br/>Data: 29.09.2016<br/>Nauczyciel: Turek Ewa" style="color:#000000;">np.</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: spr<br/>Opis: spr. z poezji MP - 28.10.2016r.<br/>Waga: 1,00<br/>Data: 07.11.2016<br/>Nauczyciel: Turek Ewa" style="color:#F04C4C;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: czz<br/>Opis: czyt. ze zrozum. (praca w parach) - 24.11.2016<br/>Waga: 1,00<br/>Data: 30.11.2016<br/>Nauczyciel: Turek Ewa" style="color:#000000;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: odp<br/>Opis: odpowiedź<br/>Waga: 1,00<br/>Data: 09.12.2016<br/>Nauczyciel: Turek Ewa" style="color:#000000;">1</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: zk<br/>Opis: zadanie klasowe - 08.12.2016<br/>Waga: 1,00<br/>Data: 14.12.2016<br/>Nauczyciel: Turek Ewa" style="color:#B16CF1;">1+</span></td>
-          <td>2</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Język angielski</td> 
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: SP2<br/>Opis: sprawdzian dział 2<br/>Waga: 1,00<br/>Data: 04.11.2016<br/>Nauczyciel: Wrażeń Katarzyna" style="color:#F04C4C;">4+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: wpr<br/>Opis: mail o zmianie szkoły<br/>Waga: 1,00<br/>Data: 07.12.2016<br/>Nauczyciel: Wrażeń Katarzyna" style="color:#20A4F7;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: wpr<br/>Opis: opis domu<br/>Waga: 1,00<br/>Data: 07.12.2016<br/>Nauczyciel: Wrażeń Katarzyna" style="color:#6ECD07;">4</span></td>
-          <td>4</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Język niemiecki</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: nieprzygotowanie do lekcji<br/>Waga: 1,00<br/>Data: 29.09.2016<br/>Nauczyciel: Sroczyńska- Kieszek Magdalena" style="color:#000000;">np (29.09)</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: K1<br/>Opis: 27.10.206<br/>Waga: 1,00<br/>Data: 10.11.2016<br/>Nauczyciel: Sroczyńska- Kieszek Magdalena" style="color:#6ECD07;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: K2<br/>Opis: Kartkówka - Rozdział 4, L. 3-4 - 17.11.2016<br/>Waga: 1,00<br/>Data: 01.12.2016<br/>Nauczyciel: Sroczyńska- Kieszek Magdalena" style="color:#6ECD07;">3</span></td>
-          <td>3</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Matematyka</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: Spr<br/>Opis: Granica i ciągłość funkcji<br/>Waga: 2,00<br/>Data: 27.09.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#B16CF1;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: <br/>Waga: 1,00<br/>Data: 29.09.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">np</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Odp<br/>Opis: <br/>Waga: 1,00<br/>Data: 20.10.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">3+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Spr<br/>Opis: Styczna i pochodna funkcji<br/>Waga: 2,00<br/>Data: 20.10.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#F04C4C;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: spr<br/>Opis: monotoniczność, ekstrema<br/>Waga: 2,00<br/>Data: 05.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#F04C4C;">2+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Gru<br/>Opis: praca w grupach<br/>Waga: 1,00<br/>Data: 15.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Spr<br/>Opis: Przebieg zmiennoci funkcji<br/>Waga: 2,00<br/>Data: 24.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#F04C4C;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Spr<br/>Opis: kąty wpisane i środkowe<br/>Waga: 2,00<br/>Data: 24.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#F04C4C;">3</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Odp<br/>Opis: <br/>Waga: 1,00<br/>Data: 05.12.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">3</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Krt<br/>Opis: Okrag opisany i wpisany w trójkat<br/>Waga: 2,00<br/>Data: 11.12.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#F04C4C;">2</span></td>
-          <td>2+</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Fizyka</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: Z<br/>Opis: <br/>Waga: 1,00<br/>Data: 20.09.2016<br/>Nauczyciel: Dubiel Elżbieta" style="color:#000000;">2+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: K1<br/>Opis: Moment bezwładności brył.<br/>Waga: 1,00<br/>Data: 02.11.2016<br/>Nauczyciel: Dubiel Elżbieta" style="color:#6ECD07;">1</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: S1<br/>Opis: Bryła sztywna.<br/>Waga: 1,00<br/>Data: 09.11.2016<br/>Nauczyciel: Dubiel Elżbieta" style="color:#F04C4C;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: A<br/>Opis: <br/>Waga: 1,00<br/>Data: 24.11.2016<br/>Nauczyciel: Dubiel Elżbieta" style="color:#000000;">1</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: K2<br/>Opis: Wahadło matematyczne.<br/>Waga: 1,00<br/>Data: 14.12.2016<br/>Nauczyciel: Dubiel Elżbieta" style="color:#6ECD07;">nb</span></td>
-          <td>2-</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Wychowanie fizyczne</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: A<br/>Opis: Aktywność<br/>Waga: 1,00<br/>Data: 17.10.2016<br/>Nauczyciel: Kardyś Grzegorz" style="color:#000000;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: S<br/>Opis: siłownia<br/>Waga: 1,00<br/>Data: 15.12.2016<br/>Nauczyciel: Kardyś Grzegorz" style="color:#000000;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: G<br/>Opis: gimnastyka<br/>Waga: 1,00<br/>Data: 15.12.2016<br/>Nauczyciel: Kardyś Grzegorz" style="color:#000000;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: PR<br/>Opis: piłka ręczna<br/>Waga: 1,00<br/>Data: 15.12.2016<br/>Nauczyciel: Kardyś Grzegorz" style="color:#000000;">4</span></td>
-          <td>3</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Zajęcia z wychowawcą</td>
-          <td class="break-word">Brak ocen</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Sieci komputerowe</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: NP1<br/>Opis: nieprzygotowanie1<br/>Waga: 1,00<br/>Data: 27.09.2016<br/>Nauczyciel: Madej Przemysław" style="color:#B16CF1;">np</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: S1<br/>Opis: sprawdzian1<br/>Waga: 2,00<br/>Data: 13.11.2016<br/>Nauczyciel: Madej Przemysław" style="color:#F04C4C;">2+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Z<br/>Opis: zeszyt<br/>Waga: 1,00<br/>Data: 06.12.2016<br/>Nauczyciel: Madej Przemysław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: CT<br/>Opis: cisco-test<br/>Waga: 1,00<br/>Data: 02.12.2016<br/>Nauczyciel: Madej Przemysław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: S2<br/>Opis: <br/>Waga: 1,00<br/>Data: 13.12.2016<br/>Nauczyciel: Madej Przemysław" style="color:#F04C4C;">4</span></td>
-          <td>3</td>
-          <td>dobry</td>
-        </tr>
-        <tr>
-          <td>Systemy baz danych</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: <br/>Opis: <br/>Waga: 1,00<br/>Data: 07.10.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: P13<br/>Opis: <br/>Waga: 1,00<br/>Data: 04.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: P12<br/>Opis: <br/>Waga: 1,00<br/>Data: 04.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">4+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: P11<br/>Opis: <br/>Waga: 1,00<br/>Data: 18.11.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: P10<br/>Opis: <br/>Waga: 1,00<br/>Data: 02.12.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: P14<br/>Opis: <br/>Waga: 1,00<br/>Data: 02.12.2016<br/>Nauczyciel: Śliwińska Anna" style="color:#000000;">5</span></td>
-          <td>5</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Administracja bazami danych</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: <br/>Waga: 0,00<br/>Data: 16.09.2016<br/>Nauczyciel: Skowron Paweł" style="color:#000000;">np</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: o1<br/>Opis: <br/>Waga: 1,00<br/>Data: 30.09.2016<br/>Nauczyciel: Skowron Paweł" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: o2<br/>Opis: <br/>Waga: 1,00<br/>Data: 28.10.2016<br/>Nauczyciel: Skowron Paweł" style="color:#000000;">4+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: c1<br/>Opis: <br/>Waga: 1,00<br/>Data: 25.11.2016<br/>Nauczyciel: Skowron Paweł" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: s1<br/>Opis: <br/>Waga: 1,00<br/>Data: 09.12.2016<br/>Nauczyciel: Skowron Paweł" style="color:#F04C4C;">3</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: c2<br/>Opis: <br/>Waga: 1,00<br/>Data: 09.12.2016<br/>Nauczyciel: Skowron Paweł" style="color:#000000;">5</span></td>
-          <td>4+</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Adminstracja sieciowymi systemami operacyjnymi</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: S1<br/>Opis: Administracja systemem Linux. 19.10<br/>Waga: 1,00<br/>Data: 29.10.2016<br/>Nauczyciel: Borowiec Tomasz" style="color:#000000;">5-</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: S2<br/>Opis: Skrypty powłoki, strumienie i potoki, prawa dostępu i archiwizacja.<br/>Waga: 1,00<br/>Data: 01.12.2016<br/>Nauczyciel: Borowiec Tomasz" style="color:#000000;">4+</span></td>
-          <td>5-</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Projektowanie i montaż lokalnych sieci komputerowych</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: K1<br/>Opis: podsieci<br/>Waga: 1,00<br/>Data: 21.09.2016<br/>Nauczyciel: Butryn Anna" style="color:#20A4F7;">3-</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: S1<br/>Opis: Vlan<br/>Waga: 1,00<br/>Data: 08.11.2016<br/>Nauczyciel: Butryn Anna" style="color:#20A4F7;">4+</span></td>
-          <td>3+</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Witryny i aplikacje internetowe</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: txt<br/>Opis: formatowanie<br/>Waga: 1,00<br/>Data: 28.09.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#000000;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: lst<br/>Opis: listy<br/>Waga: 1,00<br/>Data: 04.10.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ktr<br/>Opis: podstawy HTML<br/>Waga: 1,00<br/>Data: 04.10.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#F04C4C;">4+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ht3<br/>Opis: obrazy, multimedia<br/>Waga: 1,00<br/>Data: 11.10.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ht4<br/>Opis: tabele<br/>Waga: 1,00<br/>Data: 18.10.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ht5<br/>Opis: formularze<br/>Waga: 1,00<br/>Data: 25.10.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#6ECD07;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ht6<br/>Opis: ramki<br/>Waga: 1,00<br/>Data: 08.11.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#000000;">6</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: spr<br/>Opis: html<br/>Waga: 1,00<br/>Data: 16.11.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#F04C4C;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ht7<br/>Opis: strona końcowa<br/>Waga: 1,00<br/>Data: 22.11.2016<br/>Nauczyciel: Jaśkiewicz Marcin" style="color:#20A4F7;">5</span></td>
-          <td>5</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Religia</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: ŚJ<br/>Opis: swiadectwa historyczne i archeologiczne o Chrystusie<br/>Waga: 1,00<br/>Data: 27.09.2016<br/>Nauczyciel: Szymańska Celina" style="color:#000000;">3+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: G<br/>Opis: godność człowieka<br/>Waga: 1,00<br/>Data: 06.12.2016<br/>Nauczyciel: Szymańska Celina" style="color:#000000;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: Z<br/>Opis: zeszyt<br/>Waga: 1,00<br/>Data: 06.12.2016<br/>Nauczyciel: Szymańska Celina" style="color:#000000;">4-</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: M<br/>Opis: modlitwa<br/>Waga: 1,00<br/>Data: 06.12.2016<br/>Nauczyciel: Szymańska Celina" style="color:#000000;">6</span></td>
-          <td>3</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Programowanie aplikacji internetowych</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: konto na cba<br/>Waga: 1,00<br/>Data: 21.09.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: pliki na serwer<br/>Waga: 1,00<br/>Data: 21.09.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: <br/>Opis: <br/>Waga: 1,00<br/>Data: 28.09.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: math w html<br/>Waga: 1,00<br/>Data: 05.10.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: wstawianie skryptów<br/>Waga: 1,00<br/>Data: 19.10.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">3+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: wocument.write<br/>Waga: 1,00<br/>Data: 26.10.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: mapowanie<br/>Waga: 1,00<br/>Data: 02.11.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: okna  dialogowe<br/>Waga: 1,00<br/>Data: 09.11.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: zmienne<br/>Waga: 1,00<br/>Data: 16.11.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: operatory<br/>Waga: 1,00<br/>Data: 23.11.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: if<br/>Waga: 2,00<br/>Data: 30.11.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">5</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: if<br/>Waga: 1,00<br/>Data: 07.12.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#000000;">4+</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: z<br/>Opis: instrukcje ineracyjne<br/>Waga: 3,00<br/>Data: 14.12.2016<br/>Nauczyciel: Zieliński Wiesław" style="color:#F04C4C;">5</span></td>
-          <td>4</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Historia i społeczeństwo</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: np<br/>Waga: 1,00<br/>Data: 20.09.2016<br/>Nauczyciel: Gołas Sylwia" style="color:#20A4F7;">16.09</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: np<br/>Waga: 1,00<br/>Data: 06.10.2016<br/>Nauczyciel: Gołas Sylwia" style="color:#20A4F7;">23.09</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: ćw<br/>Opis: ćw. Rzym<br/>Waga: 1,00<br/>Data: 08.10.2016<br/>Nauczyciel: Gołas Sylwia" style="color:#6ECD07;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: spr<br/>Opis: spr<br/>Waga: 1,00<br/>Data: 07.11.2016<br/>Nauczyciel: Gołas Sylwia" style="color:#F04C4C;">2</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: odp<br/>Opis: odp<br/>Waga: 1,00<br/>Data: 29.11.2016<br/>Nauczyciel: Gołas Sylwia" style="color:#20A4F7;">3+</span></td>
-          <td>2</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Język angielski zawodowy</td>
-          <td class="break-word"><span class="ocenaCzastkowa masterTooltip" alt="Kod: T1<br/>Opis: IT &amp; Word Processing Programs<br/>Waga: 1,00<br/>Data: 04.10.2016<br/>Nauczyciel: Szewc Katarzyna" style="color:#F04C4C;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: bz<br/>Opis: brak zadania<br/>Waga: 0,00<br/>Data: 25.10.2016<br/>Nauczyciel: Szewc Katarzyna" style="color:#000000;">bz</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: T2<br/>Opis: Images &amp; graphic Design; Web Design &amp; Development)<br/>Waga: 1,00<br/>Data: 14.11.2016<br/>Nauczyciel: Szewc Katarzyna" style="color:#6ECD07;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: np<br/>Opis: nieprzygotowanie do lekcji<br/>Waga: 0,00<br/>Data: 22.11.2016<br/>Nauczyciel: Szewc Katarzyna" style="color:#000000;">np.</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: W<br/>Opis: email oficjalny<br/>Waga: 1,00<br/>Data: 29.11.2016<br/>Nauczyciel: Szewc Katarzyna" style="color:#000000;">4</span>, <span class="ocenaCzastkowa masterTooltip" alt="Kod: T3<br/>Opis: Programming Languages &amp; Communications<br/>Waga: 1,00<br/>Data: 13.12.2016<br/>Nauczyciel: Szewc Katarzyna" style="color:#F04C4C;">4</span></td>
-          <td>4</td>
-          <td>4</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <button id="modeSwitcher">Zmień Motyw!</button>
-  <script src="js/modeSwitcher.js"></script>
-  <script src="js/sredniaczek.js"></script>
+  <title>Sredniaczek Portable</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <link rel="stylesheet" href="css/app.min.css"> 
+</head>
+
+<body>
+    <div class="container">
+     <div class="row">
+       <div class="offset-md-4 col-md-4">
+         
+        <label for="myfileinput">Wybierz plik</label>
+        <input type="file" name="file" id="myfileinput" style="display: none" accept=".html">
+        <input type="button" value="Oblicz średnią" id="save" class="hidden">
+        
+       </div>
+     </div>
+      
+     </div>
+  <footer>
+    <h2>Dawiducik Solutions&trade;</h2>
+    <!--Dawid Rzeszutek 2016-->
+  <script src="js/fileBootstrap.js"></script>
 </body>
 
 </html>
