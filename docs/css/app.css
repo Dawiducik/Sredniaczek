@@ -9569,11 +9569,7 @@ table
 
 footer
 {
-  position: fixed;
-  bottom: 0;
   text-align: center;
-  width: 100%;
-  line-height: 1px;
 }
 
 input[type="button"]
@@ -9617,4 +9613,10 @@ label
 .container, .row, html, body
 {
   height: 100%;
+}
+
+header
+{
+  text-align: center;
+  padding: 10px;
 }
